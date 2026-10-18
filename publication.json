@@ -1,0 +1,10 @@
+{
+  "controller_legal_review": false,
+  "retention_verified": false,
+  "processor_and_transfers_verified": false,
+  "released_app_alignment_verified": false,
+  "pages_public_repo_eligibility_verified": false,
+  "publishing_repository": "tuhuzbayeu/keep-or-skip-site",
+  "approved_privacy_sha256": null,
+  "approved_public_files": null
+}
