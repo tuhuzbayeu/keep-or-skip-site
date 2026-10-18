@@ -106,6 +106,9 @@ def check(publication=False):
     if "url(" in css or "@import" in css: errors.append("CSS asset imports prohibited")
     urls = [n.text for n in ET.parse(SITE / "sitemap.xml").iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
     if urls != [BASE, BASE+"privacy/", BASE+"support/"]: errors.append("Sitemap mismatch")
+    robots = (SITE / "robots.txt").read_text()
+    if "Sitemap: " + BASE + "sitemap.xml" not in robots or "Allow: /keep-or-skip-site/" not in robots:
+        errors.append("Robots project path mismatch")
     if sum((SITE / p).stat().st_size for p in actual) > 500_000: errors.append("Static payload exceeds 500 KB budget")
     if publication:
         review = json.loads(REVIEW_FILE.read_text())
