@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /keep-or-skip-site/
+Sitemap: https://tuhuzbayeu.github.io/keep-or-skip-site/sitemap.xml

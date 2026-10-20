@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>Privacy Policy — Keep or Skip</title>
+  <meta name="description" content="How Keep or Skip handles Photos access, local review data, iCloud services, deletion and optional consent-based PostHog analytics.">
+  <link rel="canonical" href="https://tuhuzbayeu.github.io/keep-or-skip-site/privacy/">
+  <meta property="og:type" content="website"><meta property="og:site_name" content="Keep or Skip">
+  <meta property="og:title" content="Privacy Policy — Keep or Skip">
+  <meta property="og:description" content="How Keep or Skip handles Photos access, local review data, iCloud services, deletion and optional consent-based PostHog analytics.">
+  <meta property="og:url" content="https://tuhuzbayeu.github.io/keep-or-skip-site/privacy/"><meta property="og:locale" content="en_US">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="header wrap"><a class="wordmark" href="../">Keep or Skip</a><nav class="nav" aria-label="Main navigation"><a href="../">Home</a><a href="../privacy/" aria-current="page">Privacy</a><a href="../support/">Support</a></nav></header>
+<main id="main" class="wrap" tabindex="-1"><article class="document">
+<p class="eyebrow">Your photos. Your choices.</p><h1>Privacy Policy</h1>
+<p class="meta">Effective 20 October 2026</p>
+<h2 id="controller">1. Controller and contact</h2>
+<p>Vadzim Tuhuzbayeu develops Keep or Skip and is the controller for the processing described here. Contact <a class="contact" href="mailto:tuhuzbayeu@gmail.com">tuhuzbayeu@gmail.com</a> for support or privacy requests. Keep or Skip 1.0 is free and has no account, advertising, subscription or in-app purchase.</p>
+<h2 id="photos">2. Photos access and on-device analysis</h2>
+<p>Keep or Skip uses the Photos permission to access only the media you allow. You may grant selected-photo or full access and change or revoke it in iOS Settings. Apple Vision analyzes images on your device. Photo and video content, image features, and individual Keep, Trash or Best choices are not uploaded to the developer, PostHog or an external AI service.</p>
+<h2 id="storage">3. Local app data and recovery</h2>
+<p>Review decisions, Undo history, scan checkpoints, image features, local Photos identifiers, settings and recovery files are stored in the app container. Previews may be cached in memory, and approved iCloud previews may be stored locally. A last-good session backup and an original damaged session file preserved during recovery may also remain there. Local state persists across launches. Removing the app removes its local container, but does not remove originals from Photos. iOS or device backups may separately retain app data under your system settings.</p>
+<h2 id="deletion">4. App Trash and deletion from Photos</h2>
+<p>Keep saves a review choice without changing the original. Skip moves an item to the app's reversible Trash. Restore and available Undo actions change app decisions only. They do not delete originals.</p>
+<p>Deleting files from Apple Photos requires a separate action in History and Apple's confirmation. Cancelling leaves the files in place. A confirmed deletion may synchronize through iCloud Photos. Keep or Skip cannot undo a completed Photos deletion. Apple controls any recovery through Recently Deleted.</p>
+<h2 id="apple">5. Apple services</h2>
+<p>With your approval, Photos may retrieve cloud-only previews from your iCloud library. When a photo already contains coordinates, Keep or Skip may use Apple's reverse-geocoding service to show a place name. The app does not request your live device location. Photos, iCloud, geocoding, device backups and Apple's distribution and diagnostic services operate under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
+<h2 id="analytics">6. Optional product analytics</h2>
+<p>Analytics is off until you explicitly choose <strong>Share Usage Analytics</strong>. Declining does not restrict app features. The app sends a small, defined set of events over HTTPS to PostHog's EU service. It does not use the PostHog SDK.</p>
+<p>Analytics uses a random installation identifier to associate events from the same installation over time. It is not your name, email, Apple account, advertising identifier, device identifier or Photos identifier. Events can include an event UUID and time, app version and build, major iOS version, release channel, permission scope, scan outcome and duration, review-session totals and duration, History use, deletion request outcomes, activation after ten post-consent photo decisions, and fixed operation or error categories. Counts and durations are bounded.</p>
+<p>Analytics does not include photo, video or audio content; filenames or paths; Photos asset IDs; image features, faces or OCR; capture dates; coordinates or place names; raw error messages; screen recordings; or individual swipe decisions. Videos are excluded from photo decision totals.</p>
+<p>PostHog receives the connection IP address to deliver the request. IP anonymization is enabled and GeoIP enrichment and person profiles are disabled. Automatic capture, Session Replay, console capture and automatic exception capture are disabled. Keep or Skip does not request remote feature flags or automatically send crash reports.</p>
+<h2 id="consent">7. Consent and withdrawal</h2>
+<p>You can change the analytics choice in Settings → Privacy → Share Usage Analytics. Turning it off stops new collection, cancels pending sends, clears the in-memory unsent queue and removes the local analytics identifier. A later opt-in creates a new unrelated identifier. Pre-consent activity is not backfilled. Turning analytics off does not remotely erase events already received by PostHog, and a request may have arrived before cancellation.</p>
+<p>Contact the controller to request erasure or exercise another privacy right. Because Keep or Skip has no account mapping and withdrawal removes the local identifier, identifying earlier analytics events may be difficult. Do not send photos or library exports to establish identity.</p>
+<h2 id="processors">8. Provider, storage and international processing</h2>
+<p>PostHog Limited processes optional analytics for the controller under a signed Data Processing Agreement. The project uses PostHog Cloud EU, hosted in Frankfurt. PostHog may use its published subprocessors and transfer safeguards, including the Data Privacy Framework and Standard Contractual Clauses, as described in its <a href="https://posthog.com/dpa">DPA</a>, <a href="https://posthog.com/subprocessors">subprocessor list</a>, <a href="https://posthog.com/privacy">privacy notice</a> and <a href="https://posthog.com/terms">terms</a>. PostHog's internal AI-training opt-in is disabled. The iOS app does not call PostHog dashboard AI features or send photo content to them.</p>
+<h2 id="retention">9. Retention and erasure</h2>
+<p>The current free plan makes product analytics events queryable for up to one year. This query window is not a promise that every underlying copy or operational log is physically deleted on the same date. PostHog provides separate asynchronous deletion tools and applies its DPA, terms, security practices and backup processes. The controller retains analytics only as needed to measure use, return visits, aggregate review outcomes and reliability, subject to those provider controls and applicable legal obligations.</p>
+<p>The app's unsent queue is memory-only, holds at most 100 events and discards events older than 24 hours before capture or retry. Local app data remains until you change or remove it, remove the app, or the operating system removes it, subject to device backups. Support correspondence remains as needed to answer the request and meet applicable legal obligations.</p>
+<h2 id="purposes">10. Purposes and legal bases</h2>
+<p>Local Photos access and saved state provide the media-review features you request. Optional analytics relies on your consent and is used to measure adoption, return use, aggregate review outcomes, scanning and reliability. Support correspondence is used to answer your request. Where GDPR applies, these purposes rely as applicable on Article 6(1)(b), Article 6(1)(a), Article 6(1)(f) and Article 6(1)(c).</p>
+<h2 id="rights">11. Security and your rights</h2>
+<p>Analytics is limited to an allowlisted EU HTTPS endpoint. Redirects, cookies, URL caching and shared credential storage are disabled in the analytics client. iOS protects local app data and previews using platform mechanisms.</p>
+<p>Where applicable, you may request access, correction, erasure, restriction or portability; object where processing relies on legitimate interests; withdraw consent without affecting earlier lawful processing; and complain to a supervisory authority. In Poland this includes <a href="https://uodo.gov.pl/en">UODO</a>. Rights are subject to applicable legal conditions.</p>
+<h2 id="children">12. Children, website and changes</h2>
+<p>Keep or Skip is a general photo-review utility and does not provide an account or age-verification feature. If local law requires parental authorization for analytics consent, do not enable analytics without it. Core features do not require analytics consent. If you email support, the developer receives your address and whatever you choose to include. Do not send private media unnecessarily.</p>
+<p>The official website is a static GitHub Pages site without its own analytics, cookies, tracking scripts, forms, embedded third-party media or external fonts. GitHub may process request information such as IP addresses to serve and protect the site under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>.</p>
+<p>This policy may be updated when the app or processing changes. The effective date above identifies the current version.</p>
+<span id="local"></span><span id="security"></span><span id="transfers"></span><span id="changes"></span><span id="contact"></span>
+</article></main>
+<footer class="footer wrap"><p>Keep or Skip<br>By Vadzim Tuhuzbayeu<br><a class="contact" href="mailto:tuhuzbayeu@gmail.com">tuhuzbayeu@gmail.com</a></p><nav aria-label="Footer"><a href="../privacy/">Privacy Policy</a><a href="../support/">Support</a></nav></footer>
+</body>
+</html>

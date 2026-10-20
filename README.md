@@ -4,9 +4,8 @@ Static website publishing repository for **Keep or Skip**.
 
 ## Current status
 
-Deployment infrastructure is prepared. **The website has not been published.**
-No website pages or draft Privacy Policy are included until the complete policy
-and website snapshot have passed review.
+Reviewed static website files are included. Deployment is manual; verify the
+latest successful Pages run and public HTTPS responses before calling URLs live.
 
 The source of truth remains private. This repository never receives application
 code, private reports, credentials or private Git history.

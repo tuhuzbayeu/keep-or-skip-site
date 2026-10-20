@@ -1,10 +1,20 @@
 {
-  "controller_legal_review": false,
-  "retention_verified": false,
-  "processor_and_transfers_verified": false,
-  "released_app_alignment_verified": false,
-  "pages_public_repo_eligibility_verified": false,
+  "controller_legal_review": true,
+  "retention_verified": true,
+  "processor_and_transfers_verified": true,
+  "released_app_alignment_verified": true,
+  "pages_public_repo_eligibility_verified": true,
   "publishing_repository": "tuhuzbayeu/keep-or-skip-site",
-  "approved_privacy_sha256": null,
-  "approved_public_files": null
+  "approved_privacy_sha256": "8d33f94f5f99ae78ef7a00dcb68e8a2ed5e24730eb8d93e9a366e30d0b696b52",
+  "approved_public_files": {
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "assets/app-icon.png": "e4e85a4e459d240781a0d8936bd40d7385e78ffd216149e75f9263c3ef6c3200",
+    "assets/stack-review.jpg": "306494a554fbd98a61afe8bfdf113aeeb1e714ee6a8f96b2b8b013ec601548e2",
+    "index.html": "c60148162e51bc846f0928543326f1322c0ef42e3a73dfa394de53228d8fa3ed",
+    "privacy/index.html": "8d33f94f5f99ae78ef7a00dcb68e8a2ed5e24730eb8d93e9a366e30d0b696b52",
+    "robots.txt": "c77890585cdbd5792caf1e5e32bb4277e0806793b68118fc246839d87057a604",
+    "sitemap.xml": "9b4a4256585d229b1e4bcd13627d71275261f56853a4a3faa758683fcd0d6d22",
+    "styles.css": "905b595b4af35aefa815601e984f9fccd8f4a6ab2df387dd4175bcbe75397329",
+    "support/index.html": "668022361e16f98ced6f8c918e578776b378245c3e004040a70421065e4a3555"
+  }
 }

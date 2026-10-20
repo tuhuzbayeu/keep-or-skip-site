@@ -16,7 +16,7 @@ SITE = REPO / "site"
 REVIEW_FILE = REPO / "docs/release/website-publication.json"
 BASE = "https://tuhuzbayeu.github.io/keep-or-skip-site/"
 ALLOWED = {"index.html", "privacy/index.html", "support/index.html", "styles.css",
-           "assets/stack-review.jpg", ".nojekyll", "robots.txt", "sitemap.xml"}
+           "assets/app-icon.png", "assets/stack-review.jpg", ".nojekyll", "robots.txt", "sitemap.xml"}
 VOID = set("area base br col embed hr img input link meta param source track wbr".split())
 
 
